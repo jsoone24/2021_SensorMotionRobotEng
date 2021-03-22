@@ -1,2 +1,2 @@
-beginner_tutorials
--DCATKIN_DEVEL_PREFIX=/home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/install -G Unix Makefiles
+beginner_tutorials:my_publisher:my_subscriber:my_turtlesim_controller
+-DCATKIN_DEVEL_PREFIX=/home/jongsoo/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/jongsoo/catkin_ws/install -G Unix Makefiles

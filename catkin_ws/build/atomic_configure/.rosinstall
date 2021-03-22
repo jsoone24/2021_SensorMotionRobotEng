@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/devel/setup.sh
+    local-name: /home/jongsoo/catkin_ws/devel/setup.sh
