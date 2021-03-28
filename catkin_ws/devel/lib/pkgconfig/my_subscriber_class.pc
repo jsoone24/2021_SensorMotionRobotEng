@@ -1,0 +1,8 @@
+prefix=/home/jongsoo/catkin_ws/devel
+
+Name: my_subscriber_class
+Description: Description of my_subscriber_class
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: roscpp my_publisher_class

@@ -1,0 +1,8 @@
+prefix=/home/jongsoo/catkin_ws/install
+
+Name: random_gen_x
+Description: Description of random_gen_x
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: roscpp

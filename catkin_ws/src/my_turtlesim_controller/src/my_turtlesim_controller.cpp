@@ -2,15 +2,13 @@
 #include <iostream>
 #include <geometry_msgs/Twist.h>
 
-int main(int argc, char** argv)
-{
+int main(int argc, char **argv) {
     ros::init(argc, argv, "my_turtlesim_controller");
     ros::NodeHandle nh;
-    ros::Publisher pub_control = nh.advertise<geometry_msgs::Twist>("/turtle1/cmd_vel",100);
+    ros::Publisher pub_control = nh.advertise<geometry_msgs::Twist>("/turtle1/cmd_vel", 100);
     ros::Rate loop_rate(10);
 
-    while(ros::ok())
-    {
+    while (ros::ok()) {
         geometry_msgs::Twist twist;
         twist.linear.x = 2.0;
         twist.linear.y = 0.0;

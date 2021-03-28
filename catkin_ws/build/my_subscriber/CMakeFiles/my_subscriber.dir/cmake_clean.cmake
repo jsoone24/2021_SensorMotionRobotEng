@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/my_subscriber.dir/src/my_subscriber.cpp.o"
-  "/home/jongsoo/catkin_ws/devel/lib/my_subscriber/my_subscriber.pdb"
   "/home/jongsoo/catkin_ws/devel/lib/my_subscriber/my_subscriber"
+  "/home/jongsoo/catkin_ws/devel/lib/my_subscriber/my_subscriber.pdb"
+  "CMakeFiles/my_subscriber.dir/src/my_subscriber.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.

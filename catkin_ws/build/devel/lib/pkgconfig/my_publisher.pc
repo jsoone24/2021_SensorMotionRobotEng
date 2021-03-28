@@ -1,0 +1,8 @@
+prefix=/home/jongsoo/catkin_ws/build/devel
+
+Name: my_publisher
+Description: Description of my_publisher
+Version: 0.0.0
+Cflags: -I/home/jongsoo/catkin_ws/build/devel/include
+Libs: -L${prefix}/lib 
+Requires: roscpp

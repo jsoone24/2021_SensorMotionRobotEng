@@ -1,0 +1,8 @@
+prefix=/home/jongsoo/catkin_ws/install
+
+Name: pub_name
+Description: Description of pub_name
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: roscpp

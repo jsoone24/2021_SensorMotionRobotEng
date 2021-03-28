@@ -1,0 +1,21 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/home/jongsoo/catkin_ws/devel/include/**",
+        "/opt/ros/melodic/include/**",
+        "/home/jongsoo/catkin_ws/src/beginner_tutorials/include/**",
+        "/home/jongsoo/catkin_ws/src/my_publisher/include/**",
+        "/home/jongsoo/catkin_ws/src/my_subscriber/include/**",
+        "/home/jongsoo/catkin_ws/src/my_turtlesim_controller/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS"
+    }
+  ],
+  "version": 4
+}

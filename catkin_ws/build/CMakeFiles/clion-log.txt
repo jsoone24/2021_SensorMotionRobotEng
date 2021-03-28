@@ -1,0 +1,84 @@
+/home/jongsoo/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/203.7717.62/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Release -DCATKIN_DEVEL_PREFIX=/home/jongsoo/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/jongsoo/catkin_ws/install -G "CodeBlocks - Unix Makefiles" /home/jongsoo/catkin_ws/src
+-- Using CATKIN_DEVEL_PREFIX: /home/jongsoo/catkin_ws/devel
+-- Using CMAKE_PREFIX_PATH: /opt/ros/melodic
+-- This workspace overlays: /opt/ros/melodic
+-- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python2
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/jongsoo/catkin_ws/build/test_results
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.29
+-- BUILD_SHARED_LIBS is on
+-- BUILD_SHARED_LIBS is on
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- ~~  traversing 16 packages in topological order:
+-- ~~  - beginner_tutorials
+-- ~~  - my_publisher
+-- ~~  - my_publisher_class
+-- ~~  - multiple_topic_subscribe
+-- ~~  - my_subscriber
+-- ~~  - my_subscriber_class
+-- ~~  - my_turtlesim_controller
+-- ~~  - pub_department_number
+-- ~~  - pub_major
+-- ~~  - pub_name
+-- ~~  - pub_subject
+-- ~~  - random_gen_x
+-- ~~  - random_gen_y
+-- ~~  - random_gen_yaw
+-- ~~  - random_turtlesim_controller
+-- ~~  - string_merger
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- +++ processing catkin package: 'beginner_tutorials'
+-- ==> add_subdirectory(beginner_tutorials)
+-- +++ processing catkin package: 'my_publisher'
+-- ==> add_subdirectory(my_publisher)
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- my_publisher: 1 messages, 0 services
+-- +++ processing catkin package: 'my_publisher_class'
+-- ==> add_subdirectory(my_publisher_class)
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- my_publisher_class: 1 messages, 0 services
+-- +++ processing catkin package: 'multiple_topic_subscribe'
+-- ==> add_subdirectory(multiple_topic_subscribe)
+-- +++ processing catkin package: 'my_subscriber'
+-- ==> add_subdirectory(my_subscriber)
+-- +++ processing catkin package: 'my_subscriber_class'
+-- ==> add_subdirectory(my_subscriber_class)
+-- +++ processing catkin package: 'my_turtlesim_controller'
+-- ==> add_subdirectory(my_turtlesim_controller)
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- +++ processing catkin package: 'pub_department_number'
+-- ==> add_subdirectory(pub_department_number)
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- +++ processing catkin package: 'pub_major'
+-- ==> add_subdirectory(pub_major)
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- +++ processing catkin package: 'pub_name'
+-- ==> add_subdirectory(pub_name)
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- +++ processing catkin package: 'pub_subject'
+-- ==> add_subdirectory(pub_subject)
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- +++ processing catkin package: 'random_gen_x'
+-- ==> add_subdirectory(random_gen_x)
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- random_gen_x: 1 messages, 0 services
+-- +++ processing catkin package: 'random_gen_y'
+-- ==> add_subdirectory(random_gen_y)
+-- +++ processing catkin package: 'random_gen_yaw'
+-- ==> add_subdirectory(random_gen_yaw)
+-- +++ processing catkin package: 'random_turtlesim_controller'
+-- ==> add_subdirectory(random_turtlesim_controller)
+-- +++ processing catkin package: 'string_merger'
+-- ==> add_subdirectory(string_merger)
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jongsoo/catkin_ws/build

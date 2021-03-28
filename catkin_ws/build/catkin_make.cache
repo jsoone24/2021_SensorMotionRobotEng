@@ -1,2 +1,2 @@
-beginner_tutorials:my_publisher:my_subscriber:my_turtlesim_controller
+beginner_tutorials:multiple_topic_subscribe:my_publisher:my_publisher_class:my_subscriber:my_subscriber_class:my_turtlesim_controller:pub_department_number:pub_major:pub_name:pub_subject:random_gen_x:random_gen_y:random_gen_yaw:random_turtlesim_controller:string_merger
 -DCATKIN_DEVEL_PREFIX=/home/jongsoo/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/jongsoo/catkin_ws/install -G Unix Makefiles

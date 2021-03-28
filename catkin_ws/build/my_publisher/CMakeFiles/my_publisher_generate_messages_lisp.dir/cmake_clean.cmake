@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/my_publisher_generate_messages_lisp"
   "/home/jongsoo/catkin_ws/devel/share/common-lisp/ros/my_publisher/msg/my_msg.lisp"
+  "CMakeFiles/my_publisher_generate_messages_lisp"
 )
 
 # Per-language clean rules from dependency scanning.
