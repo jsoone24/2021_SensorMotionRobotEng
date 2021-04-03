@@ -397,6 +397,9 @@ gtest_main_LIB_DEPENDS:STATIC=general;-lpthread;general;gtest;
 //Path to a library.
 lib:FILEPATH=/opt/ros/melodic/lib/libxmlrpcpp.so
 
+//The directory containing a CMake configuration file for me.
+me_DIR:PATH=me_DIR-NOTFOUND
+
 //The directory containing a CMake configuration file for message_generation.
 message_generation_DIR:PATH=/opt/ros/melodic/share/message_generation/cmake
 
@@ -408,6 +411,30 @@ multiple_topic_subscribe_BINARY_DIR:STATIC=/home/jongsoo/catkin_ws/build/multipl
 
 //Value Computed by CMake
 multiple_topic_subscribe_SOURCE_DIR:STATIC=/home/jongsoo/catkin_ws/src/multiple_topic_subscribe
+
+//Value Computed by CMake
+my_client_BINARY_DIR:STATIC=/home/jongsoo/catkin_ws/build/my_client
+
+//Value Computed by CMake
+my_client_SOURCE_DIR:STATIC=/home/jongsoo/catkin_ws/src/my_client
+
+//Value Computed by CMake
+my_client_class_BINARY_DIR:STATIC=/home/jongsoo/catkin_ws/build/my_client_class
+
+//Value Computed by CMake
+my_client_class_SOURCE_DIR:STATIC=/home/jongsoo/catkin_ws/src/my_client_class
+
+//Value Computed by CMake
+my_parameter_launch_BINARY_DIR:STATIC=/home/jongsoo/catkin_ws/build/my_parameter_launch
+
+//Value Computed by CMake
+my_parameter_launch_SOURCE_DIR:STATIC=/home/jongsoo/catkin_ws/src/my_parameter_launch
+
+//Value Computed by CMake
+my_parameter_yaml_BINARY_DIR:STATIC=/home/jongsoo/catkin_ws/build/my_parameter_yaml
+
+//Value Computed by CMake
+my_parameter_yaml_SOURCE_DIR:STATIC=/home/jongsoo/catkin_ws/src/my_parameter_yaml
 
 //Value Computed by CMake
 my_publisher_BINARY_DIR:STATIC=/home/jongsoo/catkin_ws/build/my_publisher
@@ -423,6 +450,24 @@ my_publisher_class_DIR:PATH=/home/jongsoo/catkin_ws/devel/share/my_publisher_cla
 
 //Value Computed by CMake
 my_publisher_class_SOURCE_DIR:STATIC=/home/jongsoo/catkin_ws/src/my_publisher_class
+
+//Value Computed by CMake
+my_server_BINARY_DIR:STATIC=/home/jongsoo/catkin_ws/build/my_server
+
+//The directory containing a CMake configuration file for my_server.
+my_server_DIR:PATH=/home/jongsoo/catkin_ws/devel/share/my_server/cmake
+
+//Value Computed by CMake
+my_server_SOURCE_DIR:STATIC=/home/jongsoo/catkin_ws/src/my_server
+
+//Value Computed by CMake
+my_server_class_BINARY_DIR:STATIC=/home/jongsoo/catkin_ws/build/my_server_class
+
+//The directory containing a CMake configuration file for my_server_class.
+my_server_class_DIR:PATH=/home/jongsoo/catkin_ws/devel/share/my_server_class/cmake
+
+//Value Computed by CMake
+my_server_class_SOURCE_DIR:STATIC=/home/jongsoo/catkin_ws/src/my_server_class
 
 //Value Computed by CMake
 my_subscriber_BINARY_DIR:STATIC=/home/jongsoo/catkin_ws/build/my_subscriber
@@ -646,7 +691,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=20
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=26
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

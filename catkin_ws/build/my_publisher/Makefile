@@ -122,17 +122,6 @@ rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
 
-# Special rule for the target test
-test:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
-	/home/jongsoo/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/203.7717.62/bin/cmake/linux/bin/ctest --force-new-ctest-process $(ARGS)
-.PHONY : test
-
-# Special rule for the target test
-test/fast: test
-
-.PHONY : test/fast
-
 # Special rule for the target install/strip
 install/strip: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
@@ -154,6 +143,17 @@ list_install_components:
 list_install_components/fast: list_install_components
 
 .PHONY : list_install_components/fast
+
+# Special rule for the target test
+test:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
+	/home/jongsoo/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/203.7717.62/bin/cmake/linux/bin/ctest --force-new-ctest-process $(ARGS)
+.PHONY : test
+
+# Special rule for the target test
+test/fast: test
+
+.PHONY : test/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -218,6 +218,21 @@ my_publisher_generate_messages_py/fast:
 .PHONY : my_publisher_generate_messages_py/fast
 
 # Convenience name for target.
+my_publisher/CMakeFiles/my_publisher_generate_messages_cpp.dir/rule:
+	cd /home/jongsoo/catkin_ws/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 my_publisher/CMakeFiles/my_publisher_generate_messages_cpp.dir/rule
+.PHONY : my_publisher/CMakeFiles/my_publisher_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+my_publisher_generate_messages_cpp: my_publisher/CMakeFiles/my_publisher_generate_messages_cpp.dir/rule
+
+.PHONY : my_publisher_generate_messages_cpp
+
+# fast build rule for target.
+my_publisher_generate_messages_cpp/fast:
+	cd /home/jongsoo/catkin_ws/build && $(MAKE) $(MAKESILENT) -f my_publisher/CMakeFiles/my_publisher_generate_messages_cpp.dir/build.make my_publisher/CMakeFiles/my_publisher_generate_messages_cpp.dir/build
+.PHONY : my_publisher_generate_messages_cpp/fast
+
+# Convenience name for target.
 my_publisher/CMakeFiles/my_publisher_gennodejs.dir/rule:
 	cd /home/jongsoo/catkin_ws/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 my_publisher/CMakeFiles/my_publisher_gennodejs.dir/rule
 .PHONY : my_publisher/CMakeFiles/my_publisher_gennodejs.dir/rule
@@ -233,19 +248,19 @@ my_publisher_gennodejs/fast:
 .PHONY : my_publisher_gennodejs/fast
 
 # Convenience name for target.
-my_publisher/CMakeFiles/my_publisher_generate_messages_cpp.dir/rule:
-	cd /home/jongsoo/catkin_ws/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 my_publisher/CMakeFiles/my_publisher_generate_messages_cpp.dir/rule
-.PHONY : my_publisher/CMakeFiles/my_publisher_generate_messages_cpp.dir/rule
+my_publisher/CMakeFiles/my_publisher_gencpp.dir/rule:
+	cd /home/jongsoo/catkin_ws/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 my_publisher/CMakeFiles/my_publisher_gencpp.dir/rule
+.PHONY : my_publisher/CMakeFiles/my_publisher_gencpp.dir/rule
 
 # Convenience name for target.
-my_publisher_generate_messages_cpp: my_publisher/CMakeFiles/my_publisher_generate_messages_cpp.dir/rule
+my_publisher_gencpp: my_publisher/CMakeFiles/my_publisher_gencpp.dir/rule
 
-.PHONY : my_publisher_generate_messages_cpp
+.PHONY : my_publisher_gencpp
 
 # fast build rule for target.
-my_publisher_generate_messages_cpp/fast:
-	cd /home/jongsoo/catkin_ws/build && $(MAKE) $(MAKESILENT) -f my_publisher/CMakeFiles/my_publisher_generate_messages_cpp.dir/build.make my_publisher/CMakeFiles/my_publisher_generate_messages_cpp.dir/build
-.PHONY : my_publisher_generate_messages_cpp/fast
+my_publisher_gencpp/fast:
+	cd /home/jongsoo/catkin_ws/build && $(MAKE) $(MAKESILENT) -f my_publisher/CMakeFiles/my_publisher_gencpp.dir/build.make my_publisher/CMakeFiles/my_publisher_gencpp.dir/build
+.PHONY : my_publisher_gencpp/fast
 
 # Convenience name for target.
 my_publisher/CMakeFiles/_my_publisher_generate_messages_check_deps_my_msg.dir/rule:
@@ -276,51 +291,6 @@ my_publisher_generate_messages: my_publisher/CMakeFiles/my_publisher_generate_me
 my_publisher_generate_messages/fast:
 	cd /home/jongsoo/catkin_ws/build && $(MAKE) $(MAKESILENT) -f my_publisher/CMakeFiles/my_publisher_generate_messages.dir/build.make my_publisher/CMakeFiles/my_publisher_generate_messages.dir/build
 .PHONY : my_publisher_generate_messages/fast
-
-# Convenience name for target.
-my_publisher/CMakeFiles/_catkin_empty_exported_target.dir/rule:
-	cd /home/jongsoo/catkin_ws/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 my_publisher/CMakeFiles/_catkin_empty_exported_target.dir/rule
-.PHONY : my_publisher/CMakeFiles/_catkin_empty_exported_target.dir/rule
-
-# Convenience name for target.
-_catkin_empty_exported_target: my_publisher/CMakeFiles/_catkin_empty_exported_target.dir/rule
-
-.PHONY : _catkin_empty_exported_target
-
-# fast build rule for target.
-_catkin_empty_exported_target/fast:
-	cd /home/jongsoo/catkin_ws/build && $(MAKE) $(MAKESILENT) -f my_publisher/CMakeFiles/_catkin_empty_exported_target.dir/build.make my_publisher/CMakeFiles/_catkin_empty_exported_target.dir/build
-.PHONY : _catkin_empty_exported_target/fast
-
-# Convenience name for target.
-my_publisher/CMakeFiles/my_publisher_generate_messages_nodejs.dir/rule:
-	cd /home/jongsoo/catkin_ws/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 my_publisher/CMakeFiles/my_publisher_generate_messages_nodejs.dir/rule
-.PHONY : my_publisher/CMakeFiles/my_publisher_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-my_publisher_generate_messages_nodejs: my_publisher/CMakeFiles/my_publisher_generate_messages_nodejs.dir/rule
-
-.PHONY : my_publisher_generate_messages_nodejs
-
-# fast build rule for target.
-my_publisher_generate_messages_nodejs/fast:
-	cd /home/jongsoo/catkin_ws/build && $(MAKE) $(MAKESILENT) -f my_publisher/CMakeFiles/my_publisher_generate_messages_nodejs.dir/build.make my_publisher/CMakeFiles/my_publisher_generate_messages_nodejs.dir/build
-.PHONY : my_publisher_generate_messages_nodejs/fast
-
-# Convenience name for target.
-my_publisher/CMakeFiles/my_publisher_gencpp.dir/rule:
-	cd /home/jongsoo/catkin_ws/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 my_publisher/CMakeFiles/my_publisher_gencpp.dir/rule
-.PHONY : my_publisher/CMakeFiles/my_publisher_gencpp.dir/rule
-
-# Convenience name for target.
-my_publisher_gencpp: my_publisher/CMakeFiles/my_publisher_gencpp.dir/rule
-
-.PHONY : my_publisher_gencpp
-
-# fast build rule for target.
-my_publisher_gencpp/fast:
-	cd /home/jongsoo/catkin_ws/build && $(MAKE) $(MAKESILENT) -f my_publisher/CMakeFiles/my_publisher_gencpp.dir/build.make my_publisher/CMakeFiles/my_publisher_gencpp.dir/build
-.PHONY : my_publisher_gencpp/fast
 
 # Convenience name for target.
 my_publisher/CMakeFiles/my_publisher_genpy.dir/rule:
@@ -397,6 +367,21 @@ my_publisher_generate_messages_lisp/fast:
 	cd /home/jongsoo/catkin_ws/build && $(MAKE) $(MAKESILENT) -f my_publisher/CMakeFiles/my_publisher_generate_messages_lisp.dir/build.make my_publisher/CMakeFiles/my_publisher_generate_messages_lisp.dir/build
 .PHONY : my_publisher_generate_messages_lisp/fast
 
+# Convenience name for target.
+my_publisher/CMakeFiles/my_publisher_generate_messages_nodejs.dir/rule:
+	cd /home/jongsoo/catkin_ws/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 my_publisher/CMakeFiles/my_publisher_generate_messages_nodejs.dir/rule
+.PHONY : my_publisher/CMakeFiles/my_publisher_generate_messages_nodejs.dir/rule
+
+# Convenience name for target.
+my_publisher_generate_messages_nodejs: my_publisher/CMakeFiles/my_publisher_generate_messages_nodejs.dir/rule
+
+.PHONY : my_publisher_generate_messages_nodejs
+
+# fast build rule for target.
+my_publisher_generate_messages_nodejs/fast:
+	cd /home/jongsoo/catkin_ws/build && $(MAKE) $(MAKESILENT) -f my_publisher/CMakeFiles/my_publisher_generate_messages_nodejs.dir/build.make my_publisher/CMakeFiles/my_publisher_generate_messages_nodejs.dir/build
+.PHONY : my_publisher_generate_messages_nodejs/fast
+
 src/my_publisher.o: src/my_publisher.cpp.o
 
 .PHONY : src/my_publisher.o
@@ -437,7 +422,6 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... test"
-	@echo "... _catkin_empty_exported_target"
 	@echo "... _my_publisher_generate_messages_check_deps_my_msg"
 	@echo "... my_publisher_gencpp"
 	@echo "... my_publisher_generate_messages"

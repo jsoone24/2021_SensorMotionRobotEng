@@ -382,32 +382,32 @@ my_publisher_class_gennodejs/fast:
 	cd /home/jongsoo/catkin_ws/build && $(MAKE) $(MAKESILENT) -f my_publisher_class/CMakeFiles/my_publisher_class_gennodejs.dir/build.make my_publisher_class/CMakeFiles/my_publisher_class_gennodejs.dir/build
 .PHONY : my_publisher_class_gennodejs/fast
 
-src/my_publisher_class_node.o: src/my_publisher_class_node.cpp.o
+src/my_parameter_launch_node.o: src/my_parameter_launch_node.cpp.o
 
-.PHONY : src/my_publisher_class_node.o
+.PHONY : src/my_parameter_launch_node.o
 
 # target to build an object file
-src/my_publisher_class_node.cpp.o:
-	cd /home/jongsoo/catkin_ws/build && $(MAKE) $(MAKESILENT) -f my_publisher_class/CMakeFiles/my_publisher_class_node.dir/build.make my_publisher_class/CMakeFiles/my_publisher_class_node.dir/src/my_publisher_class_node.cpp.o
-.PHONY : src/my_publisher_class_node.cpp.o
+src/my_parameter_launch_node.cpp.o:
+	cd /home/jongsoo/catkin_ws/build && $(MAKE) $(MAKESILENT) -f my_publisher_class/CMakeFiles/my_publisher_class_node.dir/build.make my_publisher_class/CMakeFiles/my_publisher_class_node.dir/src/my_parameter_launch_node.cpp.o
+.PHONY : src/my_parameter_launch_node.cpp.o
 
-src/my_publisher_class_node.i: src/my_publisher_class_node.cpp.i
+src/my_parameter_launch_node.i: src/my_parameter_launch_node.cpp.i
 
-.PHONY : src/my_publisher_class_node.i
+.PHONY : src/my_parameter_launch_node.i
 
 # target to preprocess a source file
-src/my_publisher_class_node.cpp.i:
-	cd /home/jongsoo/catkin_ws/build && $(MAKE) $(MAKESILENT) -f my_publisher_class/CMakeFiles/my_publisher_class_node.dir/build.make my_publisher_class/CMakeFiles/my_publisher_class_node.dir/src/my_publisher_class_node.cpp.i
-.PHONY : src/my_publisher_class_node.cpp.i
+src/my_parameter_launch_node.cpp.i:
+	cd /home/jongsoo/catkin_ws/build && $(MAKE) $(MAKESILENT) -f my_publisher_class/CMakeFiles/my_publisher_class_node.dir/build.make my_publisher_class/CMakeFiles/my_publisher_class_node.dir/src/my_parameter_launch_node.cpp.i
+.PHONY : src/my_parameter_launch_node.cpp.i
 
-src/my_publisher_class_node.s: src/my_publisher_class_node.cpp.s
+src/my_parameter_launch_node.s: src/my_parameter_launch_node.cpp.s
 
-.PHONY : src/my_publisher_class_node.s
+.PHONY : src/my_parameter_launch_node.s
 
 # target to generate assembly for a file
-src/my_publisher_class_node.cpp.s:
-	cd /home/jongsoo/catkin_ws/build && $(MAKE) $(MAKESILENT) -f my_publisher_class/CMakeFiles/my_publisher_class_node.dir/build.make my_publisher_class/CMakeFiles/my_publisher_class_node.dir/src/my_publisher_class_node.cpp.s
-.PHONY : src/my_publisher_class_node.cpp.s
+src/my_parameter_launch_node.cpp.s:
+	cd /home/jongsoo/catkin_ws/build && $(MAKE) $(MAKESILENT) -f my_publisher_class/CMakeFiles/my_publisher_class_node.dir/build.make my_publisher_class/CMakeFiles/my_publisher_class_node.dir/src/my_parameter_launch_node.cpp.s
+.PHONY : src/my_parameter_launch_node.cpp.s
 
 # Help Target
 help:
@@ -435,9 +435,9 @@ help:
 	@echo "... my_publisher_class_gennodejs"
 	@echo "... my_publisher_class_genpy"
 	@echo "... my_publisher_class_node"
-	@echo "... src/my_publisher_class_node.o"
-	@echo "... src/my_publisher_class_node.i"
-	@echo "... src/my_publisher_class_node.s"
+	@echo "... src/my_parameter_launch_node.o"
+	@echo "... src/my_parameter_launch_node.i"
+	@echo "... src/my_parameter_launch_node.s"
 .PHONY : help
 
 
