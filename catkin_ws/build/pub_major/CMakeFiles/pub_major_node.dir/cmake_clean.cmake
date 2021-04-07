@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/jongsoo/catkin_ws/devel/lib/pub_major/pub_major_node"
-  "/home/jongsoo/catkin_ws/devel/lib/pub_major/pub_major_node.pdb"
+  "/home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/devel/lib/pub_major/pub_major_node"
+  "/home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/devel/lib/pub_major/pub_major_node.pdb"
   "CMakeFiles/pub_major_node.dir/src/pub_major_node.cpp.o"
 )
 

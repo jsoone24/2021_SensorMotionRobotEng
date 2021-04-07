@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/jongsoo/catkin_ws/devel/lib/my_subscriber/my_subscriber"
-  "/home/jongsoo/catkin_ws/devel/lib/my_subscriber/my_subscriber.pdb"
+  "/home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/devel/lib/my_subscriber/my_subscriber"
+  "/home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/devel/lib/my_subscriber/my_subscriber.pdb"
   "CMakeFiles/my_subscriber.dir/src/my_subscriber.cpp.o"
 )
 

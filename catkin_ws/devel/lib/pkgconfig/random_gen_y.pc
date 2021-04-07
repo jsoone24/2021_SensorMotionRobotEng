@@ -1,4 +1,4 @@
-prefix=/home/jongsoo/catkin_ws/devel
+prefix=/home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/devel
 
 Name: random_gen_y
 Description: Description of random_gen_y

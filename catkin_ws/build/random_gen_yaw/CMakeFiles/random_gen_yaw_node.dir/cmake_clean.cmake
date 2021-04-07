@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/jongsoo/catkin_ws/devel/lib/random_gen_yaw/random_gen_yaw_node"
-  "/home/jongsoo/catkin_ws/devel/lib/random_gen_yaw/random_gen_yaw_node.pdb"
+  "/home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/devel/lib/random_gen_yaw/random_gen_yaw_node"
+  "/home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/devel/lib/random_gen_yaw/random_gen_yaw_node.pdb"
   "CMakeFiles/random_gen_yaw_node.dir/src/random_gen_yaw_node.cpp.o"
 )
 

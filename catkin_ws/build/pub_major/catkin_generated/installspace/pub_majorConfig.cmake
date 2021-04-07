@@ -67,14 +67,14 @@ set(pub_major_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(pub_major_SOURCE_PREFIX /home/jongsoo/catkin_ws/src/pub_major)
-  set(pub_major_DEVEL_PREFIX /home/jongsoo/catkin_ws/devel)
+  set(pub_major_SOURCE_PREFIX /home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/src/pub_major)
+  set(pub_major_DEVEL_PREFIX /home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/devel)
   set(pub_major_INSTALL_PREFIX "")
   set(pub_major_PREFIX ${pub_major_DEVEL_PREFIX})
 else()
   set(pub_major_SOURCE_PREFIX "")
   set(pub_major_DEVEL_PREFIX "")
-  set(pub_major_INSTALL_PREFIX /home/jongsoo/catkin_ws/install)
+  set(pub_major_INSTALL_PREFIX /home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/install)
   set(pub_major_PREFIX ${pub_major_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/jongsoo/catkin_ws/install/lib;/home/jongsoo/catkin_ws/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/install/lib;/home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/devel/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

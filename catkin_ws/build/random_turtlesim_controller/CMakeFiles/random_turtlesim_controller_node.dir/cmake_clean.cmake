@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/jongsoo/catkin_ws/devel/lib/random_turtlesim_controller/random_turtlesim_controller_node"
-  "/home/jongsoo/catkin_ws/devel/lib/random_turtlesim_controller/random_turtlesim_controller_node.pdb"
+  "/home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/devel/lib/random_turtlesim_controller/random_turtlesim_controller_node"
+  "/home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/devel/lib/random_turtlesim_controller/random_turtlesim_controller_node.pdb"
   "CMakeFiles/random_turtlesim_controller_node.dir/src/random_turtlesim_controller_node.cpp.o"
 )
 

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/jongsoo/catkin_ws/devel/share/roseus/ros/random_gen_x/manifest.l"
-  "/home/jongsoo/catkin_ws/devel/share/roseus/ros/random_gen_x/msg/control_msg.l"
+  "/home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/devel/share/roseus/ros/random_gen_x/manifest.l"
+  "/home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/devel/share/roseus/ros/random_gen_x/msg/control_msg.l"
   "CMakeFiles/random_gen_x_generate_messages_eus"
 )
 

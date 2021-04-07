@@ -1,8 +1,8 @@
-# Install script for directory: /home/jongsoo/catkin_ws/src/random_gen_y
+# Install script for directory: /home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/src/random_gen_y
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/jongsoo/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/jongsoo/catkin_ws/build/random_gen_y/catkin_generated/installspace/random_gen_y.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/build/random_gen_y/catkin_generated/installspace/random_gen_y.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/random_gen_y/cmake" TYPE FILE FILES
-    "/home/jongsoo/catkin_ws/build/random_gen_y/catkin_generated/installspace/random_gen_yConfig.cmake"
-    "/home/jongsoo/catkin_ws/build/random_gen_y/catkin_generated/installspace/random_gen_yConfig-version.cmake"
+    "/home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/build/random_gen_y/catkin_generated/installspace/random_gen_yConfig.cmake"
+    "/home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/build/random_gen_y/catkin_generated/installspace/random_gen_yConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/random_gen_y" TYPE FILE FILES "/home/jongsoo/catkin_ws/src/random_gen_y/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/random_gen_y" TYPE FILE FILES "/home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/src/random_gen_y/package.xml")
 endif()
 

@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/jongsoo/catkin_ws/src/pub_department_number/include/pub_department_number_node.hpp
+/home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/src/pub_department_number/include/pub_department_number_node.hpp
 ros/ros.h
-/home/jongsoo/catkin_ws/src/pub_department_number/include/ros/ros.h
+/home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/src/pub_department_number/include/ros/ros.h
 iostream
 -
 std_msgs/String.h
@@ -18,9 +18,9 @@ cstdlib
 ctime
 -
 
-/home/jongsoo/catkin_ws/src/pub_department_number/src/pub_department_number_node.cpp
+/home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/src/pub_department_number/src/pub_department_number_node.cpp
 pub_department_number_node.hpp
-/home/jongsoo/catkin_ws/src/pub_department_number/src/pub_department_number_node.hpp
+/home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/src/pub_department_number/src/pub_department_number_node.hpp
 
 /opt/ros/melodic/include/ros/advertise_options.h
 ros/forwards.h

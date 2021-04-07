@@ -1,8 +1,8 @@
-# Install script for directory: /home/jongsoo/catkin_ws/src/my_subscriber
+# Install script for directory: /home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/src/my_subscriber
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/jongsoo/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/jongsoo/catkin_ws/build/my_subscriber/catkin_generated/installspace/my_subscriber.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/build/my_subscriber/catkin_generated/installspace/my_subscriber.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_subscriber/cmake" TYPE FILE FILES
-    "/home/jongsoo/catkin_ws/build/my_subscriber/catkin_generated/installspace/my_subscriberConfig.cmake"
-    "/home/jongsoo/catkin_ws/build/my_subscriber/catkin_generated/installspace/my_subscriberConfig-version.cmake"
+    "/home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/build/my_subscriber/catkin_generated/installspace/my_subscriberConfig.cmake"
+    "/home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/build/my_subscriber/catkin_generated/installspace/my_subscriberConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_subscriber" TYPE FILE FILES "/home/jongsoo/catkin_ws/src/my_subscriber/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_subscriber" TYPE FILE FILES "/home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/src/my_subscriber/package.xml")
 endif()
 

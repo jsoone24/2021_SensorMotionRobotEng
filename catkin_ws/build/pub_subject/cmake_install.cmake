@@ -1,8 +1,8 @@
-# Install script for directory: /home/jongsoo/catkin_ws/src/pub_subject
+# Install script for directory: /home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/src/pub_subject
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/jongsoo/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/jongsoo/catkin_ws/build/pub_subject/catkin_generated/installspace/pub_subject.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/build/pub_subject/catkin_generated/installspace/pub_subject.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pub_subject/cmake" TYPE FILE FILES
-    "/home/jongsoo/catkin_ws/build/pub_subject/catkin_generated/installspace/pub_subjectConfig.cmake"
-    "/home/jongsoo/catkin_ws/build/pub_subject/catkin_generated/installspace/pub_subjectConfig-version.cmake"
+    "/home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/build/pub_subject/catkin_generated/installspace/pub_subjectConfig.cmake"
+    "/home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/build/pub_subject/catkin_generated/installspace/pub_subjectConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pub_subject" TYPE FILE FILES "/home/jongsoo/catkin_ws/src/pub_subject/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pub_subject" TYPE FILE FILES "/home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/src/pub_subject/package.xml")
 endif()
 

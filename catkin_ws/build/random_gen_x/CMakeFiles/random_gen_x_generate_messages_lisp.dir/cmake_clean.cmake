@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/jongsoo/catkin_ws/devel/share/common-lisp/ros/random_gen_x/msg/control_msg.lisp"
+  "/home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/devel/share/common-lisp/ros/random_gen_x/msg/control_msg.lisp"
   "CMakeFiles/random_gen_x_generate_messages_lisp"
 )
 

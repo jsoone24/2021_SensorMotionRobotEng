@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/jongsoo/catkin_ws/devel/lib/string_merger/string_merger_node"
-  "/home/jongsoo/catkin_ws/devel/lib/string_merger/string_merger_node.pdb"
+  "/home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/devel/lib/string_merger/string_merger_node"
+  "/home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/devel/lib/string_merger/string_merger_node.pdb"
   "CMakeFiles/string_merger_node.dir/src/string_merger_node.cpp.o"
 )
 

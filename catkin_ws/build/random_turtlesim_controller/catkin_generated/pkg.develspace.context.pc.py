@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "geometry_msgs;random_gen_x;roscpp;std_msgs".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "random_turtlesim_controller"
-PROJECT_SPACE_DIR = "/home/jongsoo/catkin_ws/devel"
+PROJECT_SPACE_DIR = "/home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/devel"
 PROJECT_VERSION = "0.0.0"

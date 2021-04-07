@@ -6,5 +6,5 @@ CXX_FLAGS = -O3 -DNDEBUG   -O -Wall -std=c++14 -fpermissive
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"random_gen_yaw\"
 
-CXX_INCLUDES = -I/home/jongsoo/catkin_ws/src/random_gen_yaw/include -I/home/jongsoo/catkin_ws/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
+CXX_INCLUDES = -I/home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/src/random_gen_yaw/include -I/home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
 
