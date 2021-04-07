@@ -1,4 +1,4 @@
-prefix=/home/jongsoo/catkin_ws/install
+prefix=/home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/install
 
 Name: my_publisher
 Description: Description of my_publisher

@@ -7,4 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export PWD='/home/jongsoo/catkin_ws/build'
+export PWD='/home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/build'

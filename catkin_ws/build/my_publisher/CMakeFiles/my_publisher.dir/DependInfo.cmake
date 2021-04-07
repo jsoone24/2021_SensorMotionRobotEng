@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/jongsoo/catkin_ws/src/my_publisher/src/my_publisher.cpp" "/home/jongsoo/catkin_ws/build/my_publisher/CMakeFiles/my_publisher.dir/src/my_publisher.cpp.o"
+  "/home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/src/my_publisher/src/my_publisher.cpp" "/home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/build/my_publisher/CMakeFiles/my_publisher.dir/src/my_publisher.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,8 +17,8 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/jongsoo/catkin_ws/devel/include"
-  "/home/jongsoo/catkin_ws/src/my_publisher/include"
+  "/home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/devel/include"
+  "/home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/src/my_publisher/include"
   "/opt/ros/melodic/include"
   "/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   )

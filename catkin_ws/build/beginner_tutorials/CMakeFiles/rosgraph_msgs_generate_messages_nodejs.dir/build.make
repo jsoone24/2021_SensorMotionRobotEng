@@ -54,19 +54,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/jongsoo/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/203.7717.62/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/145/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/jongsoo/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/203.7717.62/bin/cmake/linux/bin/cmake -E rm -f
+RM = /snap/clion/145/bin/cmake/linux/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jongsoo/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jongsoo/catkin_ws/build
+CMAKE_BINARY_DIR = /home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/build
 
 # Utility rule file for rosgraph_msgs_generate_messages_nodejs.
 
@@ -83,10 +83,10 @@ beginner_tutorials/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build: 
 .PHONY : beginner_tutorials/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
 
 beginner_tutorials/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean:
-	cd /home/jongsoo/catkin_ws/build/beginner_tutorials && $(CMAKE_COMMAND) -P CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/cmake_clean.cmake
+	cd /home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/build/beginner_tutorials && $(CMAKE_COMMAND) -P CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/cmake_clean.cmake
 .PHONY : beginner_tutorials/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean
 
 beginner_tutorials/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/depend:
-	cd /home/jongsoo/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jongsoo/catkin_ws/src /home/jongsoo/catkin_ws/src/beginner_tutorials /home/jongsoo/catkin_ws/build /home/jongsoo/catkin_ws/build/beginner_tutorials /home/jongsoo/catkin_ws/build/beginner_tutorials/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/src /home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/src/beginner_tutorials /home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/build /home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/build/beginner_tutorials /home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/build/beginner_tutorials/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : beginner_tutorials/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/depend
 

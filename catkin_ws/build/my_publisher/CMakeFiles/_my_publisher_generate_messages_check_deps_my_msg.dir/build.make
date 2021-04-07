@@ -54,19 +54,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/jongsoo/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/203.7717.62/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/145/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/jongsoo/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/203.7717.62/bin/cmake/linux/bin/cmake -E rm -f
+RM = /snap/clion/145/bin/cmake/linux/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jongsoo/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jongsoo/catkin_ws/build
+CMAKE_BINARY_DIR = /home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/build
 
 # Utility rule file for _my_publisher_generate_messages_check_deps_my_msg.
 
@@ -74,7 +74,7 @@ CMAKE_BINARY_DIR = /home/jongsoo/catkin_ws/build
 include my_publisher/CMakeFiles/_my_publisher_generate_messages_check_deps_my_msg.dir/progress.make
 
 my_publisher/CMakeFiles/_my_publisher_generate_messages_check_deps_my_msg:
-	cd /home/jongsoo/catkin_ws/build/my_publisher && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py my_publisher /home/jongsoo/catkin_ws/src/my_publisher/msg/my_msg.msg std_msgs/String:std_msgs/Float32
+	cd /home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/build/my_publisher && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py my_publisher /home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/src/my_publisher/msg/my_msg.msg std_msgs/String:std_msgs/Float32
 
 _my_publisher_generate_messages_check_deps_my_msg: my_publisher/CMakeFiles/_my_publisher_generate_messages_check_deps_my_msg
 _my_publisher_generate_messages_check_deps_my_msg: my_publisher/CMakeFiles/_my_publisher_generate_messages_check_deps_my_msg.dir/build.make
@@ -87,10 +87,10 @@ my_publisher/CMakeFiles/_my_publisher_generate_messages_check_deps_my_msg.dir/bu
 .PHONY : my_publisher/CMakeFiles/_my_publisher_generate_messages_check_deps_my_msg.dir/build
 
 my_publisher/CMakeFiles/_my_publisher_generate_messages_check_deps_my_msg.dir/clean:
-	cd /home/jongsoo/catkin_ws/build/my_publisher && $(CMAKE_COMMAND) -P CMakeFiles/_my_publisher_generate_messages_check_deps_my_msg.dir/cmake_clean.cmake
+	cd /home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/build/my_publisher && $(CMAKE_COMMAND) -P CMakeFiles/_my_publisher_generate_messages_check_deps_my_msg.dir/cmake_clean.cmake
 .PHONY : my_publisher/CMakeFiles/_my_publisher_generate_messages_check_deps_my_msg.dir/clean
 
 my_publisher/CMakeFiles/_my_publisher_generate_messages_check_deps_my_msg.dir/depend:
-	cd /home/jongsoo/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jongsoo/catkin_ws/src /home/jongsoo/catkin_ws/src/my_publisher /home/jongsoo/catkin_ws/build /home/jongsoo/catkin_ws/build/my_publisher /home/jongsoo/catkin_ws/build/my_publisher/CMakeFiles/_my_publisher_generate_messages_check_deps_my_msg.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/src /home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/src/my_publisher /home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/build /home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/build/my_publisher /home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/build/my_publisher/CMakeFiles/_my_publisher_generate_messages_check_deps_my_msg.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : my_publisher/CMakeFiles/_my_publisher_generate_messages_check_deps_my_msg.dir/depend
 

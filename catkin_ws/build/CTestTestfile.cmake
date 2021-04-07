@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/jongsoo/catkin_ws/src
-# Build directory: /home/jongsoo/catkin_ws/build
+# Source directory: /home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/src
+# Build directory: /home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/build
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
@@ -15,6 +15,7 @@ subdirs("my_server")
 subdirs("my_client")
 subdirs("my_server_class")
 subdirs("my_client_class")
+subdirs("my_static_tf_practice")
 subdirs("my_subscriber")
 subdirs("my_subscriber_class")
 subdirs("my_turtlesim_controller")
@@ -27,3 +28,4 @@ subdirs("random_gen_y")
 subdirs("random_gen_yaw")
 subdirs("random_turtlesim_controller")
 subdirs("string_merger")
+subdirs("my_dynamic_tf_practice")

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/jongsoo/catkin_ws/devel/lib/python2.7/dist-packages/my_publisher_class/msg/__init__.py"
-  "/home/jongsoo/catkin_ws/devel/lib/python2.7/dist-packages/my_publisher_class/msg/_class_msg.py"
+  "/home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/devel/lib/python2.7/dist-packages/my_publisher_class/msg/__init__.py"
+  "/home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/devel/lib/python2.7/dist-packages/my_publisher_class/msg/_class_msg.py"
   "CMakeFiles/my_publisher_class_generate_messages_py"
 )
 

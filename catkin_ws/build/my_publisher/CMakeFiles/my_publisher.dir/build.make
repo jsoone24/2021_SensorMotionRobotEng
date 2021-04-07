@@ -54,19 +54,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/jongsoo/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/203.7717.62/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/145/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/jongsoo/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/203.7717.62/bin/cmake/linux/bin/cmake -E rm -f
+RM = /snap/clion/145/bin/cmake/linux/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jongsoo/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jongsoo/catkin_ws/build
+CMAKE_BINARY_DIR = /home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/build
 
 # Include any dependencies generated for this target.
 include my_publisher/CMakeFiles/my_publisher.dir/depend.make
@@ -78,17 +78,17 @@ include my_publisher/CMakeFiles/my_publisher.dir/progress.make
 include my_publisher/CMakeFiles/my_publisher.dir/flags.make
 
 my_publisher/CMakeFiles/my_publisher.dir/src/my_publisher.cpp.o: my_publisher/CMakeFiles/my_publisher.dir/flags.make
-my_publisher/CMakeFiles/my_publisher.dir/src/my_publisher.cpp.o: /home/jongsoo/catkin_ws/src/my_publisher/src/my_publisher.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jongsoo/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object my_publisher/CMakeFiles/my_publisher.dir/src/my_publisher.cpp.o"
-	cd /home/jongsoo/catkin_ws/build/my_publisher && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/my_publisher.dir/src/my_publisher.cpp.o -c /home/jongsoo/catkin_ws/src/my_publisher/src/my_publisher.cpp
+my_publisher/CMakeFiles/my_publisher.dir/src/my_publisher.cpp.o: /home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/src/my_publisher/src/my_publisher.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object my_publisher/CMakeFiles/my_publisher.dir/src/my_publisher.cpp.o"
+	cd /home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/build/my_publisher && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/my_publisher.dir/src/my_publisher.cpp.o -c /home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/src/my_publisher/src/my_publisher.cpp
 
 my_publisher/CMakeFiles/my_publisher.dir/src/my_publisher.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/my_publisher.dir/src/my_publisher.cpp.i"
-	cd /home/jongsoo/catkin_ws/build/my_publisher && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jongsoo/catkin_ws/src/my_publisher/src/my_publisher.cpp > CMakeFiles/my_publisher.dir/src/my_publisher.cpp.i
+	cd /home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/build/my_publisher && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/src/my_publisher/src/my_publisher.cpp > CMakeFiles/my_publisher.dir/src/my_publisher.cpp.i
 
 my_publisher/CMakeFiles/my_publisher.dir/src/my_publisher.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/my_publisher.dir/src/my_publisher.cpp.s"
-	cd /home/jongsoo/catkin_ws/build/my_publisher && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jongsoo/catkin_ws/src/my_publisher/src/my_publisher.cpp -o CMakeFiles/my_publisher.dir/src/my_publisher.cpp.s
+	cd /home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/build/my_publisher && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/src/my_publisher/src/my_publisher.cpp -o CMakeFiles/my_publisher.dir/src/my_publisher.cpp.s
 
 # Object files for target my_publisher
 my_publisher_OBJECTS = \
@@ -97,40 +97,40 @@ my_publisher_OBJECTS = \
 # External object files for target my_publisher
 my_publisher_EXTERNAL_OBJECTS =
 
-/home/jongsoo/catkin_ws/devel/lib/my_publisher/my_publisher: my_publisher/CMakeFiles/my_publisher.dir/src/my_publisher.cpp.o
-/home/jongsoo/catkin_ws/devel/lib/my_publisher/my_publisher: my_publisher/CMakeFiles/my_publisher.dir/build.make
-/home/jongsoo/catkin_ws/devel/lib/my_publisher/my_publisher: /opt/ros/melodic/lib/libroscpp.so
-/home/jongsoo/catkin_ws/devel/lib/my_publisher/my_publisher: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/jongsoo/catkin_ws/devel/lib/my_publisher/my_publisher: /opt/ros/melodic/lib/librosconsole.so
-/home/jongsoo/catkin_ws/devel/lib/my_publisher/my_publisher: /opt/ros/melodic/lib/librosconsole_log4cxx.so
-/home/jongsoo/catkin_ws/devel/lib/my_publisher/my_publisher: /opt/ros/melodic/lib/librosconsole_backend_interface.so
-/home/jongsoo/catkin_ws/devel/lib/my_publisher/my_publisher: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/jongsoo/catkin_ws/devel/lib/my_publisher/my_publisher: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/jongsoo/catkin_ws/devel/lib/my_publisher/my_publisher: /opt/ros/melodic/lib/libroscpp_serialization.so
-/home/jongsoo/catkin_ws/devel/lib/my_publisher/my_publisher: /opt/ros/melodic/lib/libxmlrpcpp.so
-/home/jongsoo/catkin_ws/devel/lib/my_publisher/my_publisher: /opt/ros/melodic/lib/librostime.so
-/home/jongsoo/catkin_ws/devel/lib/my_publisher/my_publisher: /opt/ros/melodic/lib/libcpp_common.so
-/home/jongsoo/catkin_ws/devel/lib/my_publisher/my_publisher: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/jongsoo/catkin_ws/devel/lib/my_publisher/my_publisher: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/jongsoo/catkin_ws/devel/lib/my_publisher/my_publisher: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/jongsoo/catkin_ws/devel/lib/my_publisher/my_publisher: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/jongsoo/catkin_ws/devel/lib/my_publisher/my_publisher: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/jongsoo/catkin_ws/devel/lib/my_publisher/my_publisher: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/jongsoo/catkin_ws/devel/lib/my_publisher/my_publisher: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/jongsoo/catkin_ws/devel/lib/my_publisher/my_publisher: my_publisher/CMakeFiles/my_publisher.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jongsoo/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/jongsoo/catkin_ws/devel/lib/my_publisher/my_publisher"
-	cd /home/jongsoo/catkin_ws/build/my_publisher && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/my_publisher.dir/link.txt --verbose=$(VERBOSE)
+/home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/devel/lib/my_publisher/my_publisher: my_publisher/CMakeFiles/my_publisher.dir/src/my_publisher.cpp.o
+/home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/devel/lib/my_publisher/my_publisher: my_publisher/CMakeFiles/my_publisher.dir/build.make
+/home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/devel/lib/my_publisher/my_publisher: /opt/ros/melodic/lib/libroscpp.so
+/home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/devel/lib/my_publisher/my_publisher: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/devel/lib/my_publisher/my_publisher: /opt/ros/melodic/lib/librosconsole.so
+/home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/devel/lib/my_publisher/my_publisher: /opt/ros/melodic/lib/librosconsole_log4cxx.so
+/home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/devel/lib/my_publisher/my_publisher: /opt/ros/melodic/lib/librosconsole_backend_interface.so
+/home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/devel/lib/my_publisher/my_publisher: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/devel/lib/my_publisher/my_publisher: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/devel/lib/my_publisher/my_publisher: /opt/ros/melodic/lib/libroscpp_serialization.so
+/home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/devel/lib/my_publisher/my_publisher: /opt/ros/melodic/lib/libxmlrpcpp.so
+/home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/devel/lib/my_publisher/my_publisher: /opt/ros/melodic/lib/librostime.so
+/home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/devel/lib/my_publisher/my_publisher: /opt/ros/melodic/lib/libcpp_common.so
+/home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/devel/lib/my_publisher/my_publisher: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/devel/lib/my_publisher/my_publisher: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/devel/lib/my_publisher/my_publisher: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/devel/lib/my_publisher/my_publisher: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/devel/lib/my_publisher/my_publisher: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/devel/lib/my_publisher/my_publisher: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/devel/lib/my_publisher/my_publisher: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/devel/lib/my_publisher/my_publisher: my_publisher/CMakeFiles/my_publisher.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/devel/lib/my_publisher/my_publisher"
+	cd /home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/build/my_publisher && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/my_publisher.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-my_publisher/CMakeFiles/my_publisher.dir/build: /home/jongsoo/catkin_ws/devel/lib/my_publisher/my_publisher
+my_publisher/CMakeFiles/my_publisher.dir/build: /home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/devel/lib/my_publisher/my_publisher
 
 .PHONY : my_publisher/CMakeFiles/my_publisher.dir/build
 
 my_publisher/CMakeFiles/my_publisher.dir/clean:
-	cd /home/jongsoo/catkin_ws/build/my_publisher && $(CMAKE_COMMAND) -P CMakeFiles/my_publisher.dir/cmake_clean.cmake
+	cd /home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/build/my_publisher && $(CMAKE_COMMAND) -P CMakeFiles/my_publisher.dir/cmake_clean.cmake
 .PHONY : my_publisher/CMakeFiles/my_publisher.dir/clean
 
 my_publisher/CMakeFiles/my_publisher.dir/depend:
-	cd /home/jongsoo/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jongsoo/catkin_ws/src /home/jongsoo/catkin_ws/src/my_publisher /home/jongsoo/catkin_ws/build /home/jongsoo/catkin_ws/build/my_publisher /home/jongsoo/catkin_ws/build/my_publisher/CMakeFiles/my_publisher.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/src /home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/src/my_publisher /home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/build /home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/build/my_publisher /home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/build/my_publisher/CMakeFiles/my_publisher.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : my_publisher/CMakeFiles/my_publisher.dir/depend
 

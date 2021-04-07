@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/jongsoo/catkin_ws/devel/include/my_publisher/my_msg.h"
+  "/home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/devel/include/my_publisher/my_msg.h"
   "CMakeFiles/my_publisher_generate_messages_cpp"
 )
 

@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/jongsoo/catkin_ws/devel/share/gennodejs/ros/my_publisher_class/msg/class_msg.js"
+  "/home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/devel/share/gennodejs/ros/my_publisher_class/msg/class_msg.js"
   "CMakeFiles/my_publisher_class_generate_messages_nodejs"
 )
 

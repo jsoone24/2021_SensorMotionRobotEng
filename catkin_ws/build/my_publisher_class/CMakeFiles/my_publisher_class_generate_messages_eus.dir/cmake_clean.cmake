@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/jongsoo/catkin_ws/devel/share/roseus/ros/my_publisher_class/manifest.l"
-  "/home/jongsoo/catkin_ws/devel/share/roseus/ros/my_publisher_class/msg/class_msg.l"
+  "/home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/devel/share/roseus/ros/my_publisher_class/manifest.l"
+  "/home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/devel/share/roseus/ros/my_publisher_class/msg/class_msg.l"
   "CMakeFiles/my_publisher_class_generate_messages_eus"
 )
 

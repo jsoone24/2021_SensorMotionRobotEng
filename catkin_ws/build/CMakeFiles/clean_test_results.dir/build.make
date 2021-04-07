@@ -54,19 +54,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/jongsoo/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/203.7717.62/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/145/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/jongsoo/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/203.7717.62/bin/cmake/linux/bin/cmake -E rm -f
+RM = /snap/clion/145/bin/cmake/linux/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jongsoo/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jongsoo/catkin_ws/build
+CMAKE_BINARY_DIR = /home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/build
 
 # Utility rule file for clean_test_results.
 
@@ -74,7 +74,7 @@ CMAKE_BINARY_DIR = /home/jongsoo/catkin_ws/build
 include CMakeFiles/clean_test_results.dir/progress.make
 
 CMakeFiles/clean_test_results:
-	/usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/remove_test_results.py /home/jongsoo/catkin_ws/build/test_results
+	/usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/remove_test_results.py /home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/build/test_results
 
 clean_test_results: CMakeFiles/clean_test_results
 clean_test_results: CMakeFiles/clean_test_results.dir/build.make
@@ -91,6 +91,6 @@ CMakeFiles/clean_test_results.dir/clean:
 .PHONY : CMakeFiles/clean_test_results.dir/clean
 
 CMakeFiles/clean_test_results.dir/depend:
-	cd /home/jongsoo/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jongsoo/catkin_ws/src /home/jongsoo/catkin_ws/src /home/jongsoo/catkin_ws/build /home/jongsoo/catkin_ws/build /home/jongsoo/catkin_ws/build/CMakeFiles/clean_test_results.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/src /home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/src /home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/build /home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/build /home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/build/CMakeFiles/clean_test_results.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/clean_test_results.dir/depend
 

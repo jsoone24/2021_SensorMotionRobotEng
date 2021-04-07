@@ -1,27 +1,80 @@
-Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
-Change Dir: /home/jongsoo/catkin_ws/build/CMakeFiles/CMakeTmp
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_db28f/fast && make[1]: Entering directory '/home/jongsoo/catkin_ws/build/CMakeFiles/CMakeTmp'
-/usr/bin/make  -f CMakeFiles/cmTC_db28f.dir/build.make CMakeFiles/cmTC_db28f.dir/build
-make[2]: Entering directory '/home/jongsoo/catkin_ws/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_db28f.dir/src.c.o
-/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_db28f.dir/src.c.o   -c /home/jongsoo/catkin_ws/build/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_db28f
-/home/jongsoo/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/203.7717.62/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_db28f.dir/link.txt --verbose=1
-/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_db28f.dir/src.c.o  -o cmTC_db28f 
-CMakeFiles/cmTC_db28f.dir/src.c.o: In function `main':
+Run Build Command:"/usr/bin/make" "cmTC_7d790/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7d790.dir/build.make CMakeFiles/cmTC_7d790.dir/build
+make[1]: Entering directory '/home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7d790.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_7d790.dir/CheckSymbolExists.c.o   -c /home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_7d790
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7d790.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_7d790.dir/CheckSymbolExists.c.o  -o cmTC_7d790 
+CMakeFiles/cmTC_7d790.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_7d790.dir/build.make:97: recipe for target 'cmTC_7d790' failed
+make[1]: *** [cmTC_7d790] Error 1
+make[1]: Leaving directory '/home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_7d790/fast' failed
+make: *** [cmTC_7d790/fast] Error 2
+
+File /home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_676a4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_676a4.dir/build.make CMakeFiles/cmTC_676a4.dir/build
+make[1]: Entering directory '/home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_676a4.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_676a4.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_676a4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_676a4.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_676a4.dir/CheckFunctionExists.c.o  -o cmTC_676a4 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_676a4.dir/build.make:97: recipe for target 'cmTC_676a4' failed
+make[1]: *** [cmTC_676a4] Error 1
+make[1]: Leaving directory '/home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_676a4/fast' failed
+make: *** [cmTC_676a4/fast] Error 2
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_53be0/fast && /usr/bin/make  -f CMakeFiles/cmTC_53be0.dir/build.make CMakeFiles/cmTC_53be0.dir/build
+make[1]: Entering directory '/home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_53be0.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_53be0.dir/src.c.o   -c /home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_53be0
+/snap/clion/145/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_53be0.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_53be0.dir/src.c.o  -o cmTC_53be0 
+CMakeFiles/cmTC_53be0.dir/src.c.o: In function `main':
 src.c:(.text+0x3e): undefined reference to `pthread_create'
 src.c:(.text+0x4a): undefined reference to `pthread_detach'
 src.c:(.text+0x56): undefined reference to `pthread_cancel'
 src.c:(.text+0x67): undefined reference to `pthread_join'
 src.c:(.text+0x7b): undefined reference to `pthread_atfork'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_db28f.dir/build.make:106: recipe for target 'cmTC_db28f' failed
-make[2]: *** [cmTC_db28f] Error 1
-make[2]: Leaving directory '/home/jongsoo/catkin_ws/build/CMakeFiles/CMakeTmp'
-Makefile:141: recipe for target 'cmTC_db28f/fast' failed
-make[1]: *** [cmTC_db28f/fast] Error 2
-make[1]: Leaving directory '/home/jongsoo/catkin_ws/build/CMakeFiles/CMakeTmp'
+CMakeFiles/cmTC_53be0.dir/build.make:106: recipe for target 'cmTC_53be0' failed
+make[1]: *** [cmTC_53be0] Error 1
+make[1]: Leaving directory '/home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/build/CMakeFiles/CMakeTmp'
+Makefile:141: recipe for target 'cmTC_53be0/fast' failed
+make: *** [cmTC_53be0/fast] Error 2
 
 
 Source file was:
@@ -43,62 +96,5 @@ int main(void)
   pthread_exit(NULL);
 
   return 0;
-}
-
-Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/jongsoo/catkin_ws/build/CMakeFiles/CMakeTmp
-
-Run Build Command(s):/usr/bin/make cmTC_52596/fast && make[1]: Entering directory '/home/jongsoo/catkin_ws/build/CMakeFiles/CMakeTmp'
-/usr/bin/make  -f CMakeFiles/cmTC_52596.dir/build.make CMakeFiles/cmTC_52596.dir/build
-make[2]: Entering directory '/home/jongsoo/catkin_ws/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_52596.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_52596.dir/CheckFunctionExists.c.o   -c /home/jongsoo/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/203.7717.62/bin/cmake/linux/share/cmake-3.17/Modules/CheckFunctionExists.c
-Linking C executable cmTC_52596
-/home/jongsoo/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/203.7717.62/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_52596.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_52596.dir/CheckFunctionExists.c.o  -o cmTC_52596  -lpthreads 
-/usr/bin/ld: cannot find -lpthreads
-collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_52596.dir/build.make:106: recipe for target 'cmTC_52596' failed
-make[2]: *** [cmTC_52596] Error 1
-make[2]: Leaving directory '/home/jongsoo/catkin_ws/build/CMakeFiles/CMakeTmp'
-Makefile:141: recipe for target 'cmTC_52596/fast' failed
-make[1]: *** [cmTC_52596/fast] Error 2
-make[1]: Leaving directory '/home/jongsoo/catkin_ws/build/CMakeFiles/CMakeTmp'
-
-
-
-Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/jongsoo/catkin_ws/build/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/make" "cmTC_0728d/fast"
-/usr/bin/make -f CMakeFiles/cmTC_0728d.dir/build.make CMakeFiles/cmTC_0728d.dir/build
-make[1]: Entering directory '/home/jongsoo/catkin_ws/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_0728d.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_0728d.dir/CheckSymbolExists.c.o   -c /home/jongsoo/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_0728d
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0728d.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_0728d.dir/CheckSymbolExists.c.o  -o cmTC_0728d 
-CMakeFiles/cmTC_0728d.dir/CheckSymbolExists.c.o: In function `main':
-CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
-collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_0728d.dir/build.make:97: recipe for target 'cmTC_0728d' failed
-make[1]: *** [cmTC_0728d] Error 1
-make[1]: Leaving directory '/home/jongsoo/catkin_ws/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_0728d/fast' failed
-make: *** [cmTC_0728d/fast] Error 2
-
-File /home/jongsoo/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
-/* */
-#include <pthread.h>
-
-int main(int argc, char** argv)
-{
-  (void)argv;
-#ifndef pthread_create
-  return ((int*)(&pthread_create))[argc];
-#else
-  (void)argc;
-  return 0;
-#endif
 }
 

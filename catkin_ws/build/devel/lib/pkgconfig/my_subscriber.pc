@@ -1,8 +1,0 @@
-prefix=/home/jongsoo/catkin_ws/build/devel
-
-Name: my_subscriber
-Description: Description of my_subscriber
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: roscpp

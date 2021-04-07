@@ -1,8 +1,0 @@
-prefix=/home/jongsoo/catkin_ws/build/devel
-
-Name: my_turtlesim_controller
-Description: Description of my_turtlesim_controller
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: roscpp
