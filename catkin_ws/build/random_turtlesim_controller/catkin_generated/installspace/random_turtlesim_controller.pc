@@ -1,8 +1,0 @@
-prefix=/home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/install
-
-Name: random_turtlesim_controller
-Description: Description of random_turtlesim_controller
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: geometry_msgs random_gen_x roscpp std_msgs

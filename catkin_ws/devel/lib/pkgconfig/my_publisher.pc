@@ -1,8 +1,0 @@
-prefix=/home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/devel
-
-Name: my_publisher
-Description: Description of my_publisher
-Version: 0.0.0
-Cflags: -I/home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/devel/include
-Libs: -L${prefix}/lib 
-Requires: roscpp

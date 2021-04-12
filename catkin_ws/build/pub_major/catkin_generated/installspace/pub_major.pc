@@ -1,8 +1,0 @@
-prefix=/home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/install
-
-Name: pub_major
-Description: Description of pub_major
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: roscpp

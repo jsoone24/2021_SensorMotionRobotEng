@@ -1,8 +1,0 @@
-prefix=/home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/install
-
-Name: random_gen_yaw
-Description: Description of random_gen_yaw
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: random_gen_x roscpp std_msgs

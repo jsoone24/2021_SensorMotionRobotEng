@@ -1,8 +1,0 @@
-prefix=/home/jongsoo/Desktop/2021_SensorMotionRobotEng/catkin_ws/install
-
-Name: multiple_topic_subscribe
-Description: Description of multiple_topic_subscribe
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: roscpp my_publisher_class
