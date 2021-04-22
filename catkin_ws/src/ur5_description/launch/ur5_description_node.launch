@@ -3,7 +3,7 @@
     <arg name="use_gui" default="true"/>
 
     <param name="robot_description" command="$(find xacro)/xacro --inorder
-'$(find ur_description)/urdf/ur5_joint_limited_robot.urdf.xacro'"/>
+    '$(find ur_description)/urdf/ur5_joint_limited_robot.urdf.xacro'"/>
 
     <!--    Send joint values -->
     <node pkg="joint_state_publisher" type="joint_state_publisher" name="joint_state_publisher">
