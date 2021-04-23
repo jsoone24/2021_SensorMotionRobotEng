@@ -25,11 +25,11 @@ namespace calc_base2end_TF {
         //shoulder_lift_joint ptr->position[1]
         //shoulder_pan_joint ptr->position[0]
 
-        final_mat = final_mat * RotZ() * TransZ() * TransX() * RotX();  //wrist_3_joint -> wrist_2_joint
-        final_mat = final_mat * RotZ() * TransZ() * TransX() * RotX();  //wrist_2_joint -> wrist_1_joint
-        final_mat = final_mat * RotZ() * TransZ() * TransX() * RotX();  //wrist_1_joint -> elbow_joint
-        final_mat = final_mat * RotZ() * TransZ() * TransX() * RotX();  //elbow_joint -> shoulder_lift_joint
-        final_mat = final_mat * RotZ() * TransZ() * TransX() * RotX();  //shoulder_lift_joint -> shoulder_pan_joint
+        //final_mat = final_mat * RotZ() * TransZ() * TransX() * RotX();  //wrist_3_joint -> wrist_2_joint
+        //final_mat = final_mat * RotZ() * TransZ() * TransX() * RotX();  //wrist_2_joint -> wrist_1_joint
+        //final_mat = final_mat * RotZ() * TransZ() * TransX() * RotX();  //wrist_1_joint -> elbow_joint
+        //final_mat = final_mat * RotZ() * TransZ() * TransX() * RotX();  //elbow_joint -> shoulder_lift_joint
+        //final_mat = final_mat * RotZ() * TransZ() * TransX() * RotX();  //shoulder_lift_joint -> shoulder_pan_joint
 
         std::cout << "-------- Homogenous Matrix from end-effector to base using D-H parameters ---------" << std::endl;
         std::cout << final_mat << std::endl;
