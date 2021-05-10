@@ -1,28 +1,25 @@
-//
-// Created by jongsoo on 21. 5. 4..
-//
+#include <string>
+#include <ros/ros.h>
+#include <sensor_msgs/JointState.h>
+#include <tf/transform_broadcaster.h>
 
-#ifndef SRC_STATE_PUBLISHER_HPP
-#define SRC_STATE_PUBLISHER_HPP
+namespace state_publisher
+{
+    class StatePublisher
+    {
+        public:
+            StatePublisher();
+            ~StatePublisher();
 
-namespace state_publisher_class {
-    class StatePublisherClass {
-    public:
-        StatePublisherClass();
+            void run();
 
-        ~StatePublisherClass();
+        private:
+            ros::NodeHandle nh;
+            ros::Publisher joint_pub;
 
-        void run();
-
-    private:
-        float Joint1;
-        float Joint2;
-        float Joint3;
-        float Joint4;
-
-        ros::NodeHandle nh;
-        ros::Publisher joint_pub;
+            double joint_angle_1;
+            double joint_angle_2;
+            double joint_angle_3;
+            double joint_angle_4;
     };
 }
-
-#endif //SRC_STATE_PUBLISHER_HPP
