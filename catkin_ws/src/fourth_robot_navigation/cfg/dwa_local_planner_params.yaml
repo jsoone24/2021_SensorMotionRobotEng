@@ -11,15 +11,15 @@ DWAPlannerROS:
   max_vel_trans:  0.22
   min_vel_trans:  0.11
 
-  max_vel_theta: 1.5 # 로봇의 최대 회전 속도
-  min_vel_theta: 0.5 # 로봇의 최소 회전 속도
+  max_vel_theta: 2.0 # 로봇의 최대 회전 속도
+  min_vel_theta: 1.0 # 로봇의 최소 회전 속도
 
   acc_lim_x: 2.5 # 로봇의 최대 x 가속도
   acc_lim_y: 0.0 # 로봇의 최대 y 가속도
   acc_lim_theta: 1.0 # 로봇의 최대 회전 가속
 
 # Goal Tolerance Parametes
-  xy_goal_tolerance: 0.15 # goal 위치에서 x 와 y 거리의 허용 오차
+  xy_goal_tolerance: 0.05 # goal 위치에서 x 와 y 거리의 허용 오차
   yaw_goal_tolerance: 0.1 # goal 위치에서 yaw(방향)의 허용 오차
   latch_xy_goal_tolerance: true # goal 위치에서 허용 오차를 벗어나더라도 로봇이 제자리에서 회전이 가능하도록 한다.
 
