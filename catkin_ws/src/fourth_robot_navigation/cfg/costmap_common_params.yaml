@@ -9,7 +9,7 @@ cost_scaling_factor: 3.0
 
 map_type: costmap
 observation_sources: scan
-scan: {sensor_frame: base_scan, data_type: LaserScan, topic: /front/scan, marking: true, clearing: true}
+scan: {sensor_frame: lrf_link, data_type: LaserScan, topic: /front/scan, marking: true, clearing: true}
 
 # obstacle_range
 # These parameters set thresholds on obstacle information put into the costmap. The "obstacle_range" parameter determines the maximum range sensor reading that will result in an obstacle being put into the costmap. Here, we have it set at 2.5 meters, which means that the robot will only update its map with information about obstacles that are within 2.5 meters of the base. 
