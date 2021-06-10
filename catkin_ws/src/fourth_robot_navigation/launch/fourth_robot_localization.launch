@@ -32,6 +32,7 @@
     <!-- ros_control motoman launch file -->
     <include file="$(find fourth_robot_control)/launch/fourth_robot_control.launch"/>
 
+    <!-- 추가된 부분 -->
     <arg name="map_file" default="$(find fourth_robot_navigation)/map/playground.yaml"/>
     <node pkg="map_server" type="map_server" name="map_server" args="$(arg map_file)"/>
 
