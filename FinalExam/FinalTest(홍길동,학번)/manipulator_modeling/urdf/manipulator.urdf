@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<robot name="manipulator">
+
+  <material name="black">
+    <color rgba="0.0 0.0 0.0 1.0"/>
+  </material>
+  <material name="red">
+    <color rgba="1.0 0.0 0.0 1.0"/>
+  </material>
+  <material name="green">
+    <color rgba="0.0 1.0 0.0 1.0"/>
+  </material>
+
+  <link name="base"/>
+
+  <joint name="fixed" type="fixed">
+    <parent link="base"/>
+    <child link="link1"/>
+  </joint>
+
+  ~
+  ~
+  ~
+
+</robot>
